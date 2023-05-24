@@ -13,6 +13,7 @@ public class FridgeIml implements Fridge {
 
     @Override
     public void getMilk() {
+
         actionsQueue.add(Actions.GET_MILK);
     }
 
